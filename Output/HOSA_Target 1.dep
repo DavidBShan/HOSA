@@ -1,0 +1,271 @@
+Dependencies for Project 'HOSA', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5050106::V5.05 update 1 (build 106)::ARMCC
+F (..\CMSIS\core_cm3.c)(0x65887AD2)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\System\delay -I ..\System\sys -I ..\System\usart -I ..\User -I ..\Libraries\inc -I ..\Driver-IC:\Users\david\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\output\core_cm3.o --omf_browse ..\output\core_cm3.crf --depend ..\output\core_cm3.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5476A9D0)
+F (..\CMSIS\startup_stm32f10x_md.s)(0x65887AD2)(--cpu Cortex-M3 -g --apcs=interwork -IC:\Users\david\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include--pd "__UVISION_VERSION SETA 539" --pd "STM32F10X_MD SETA 1"--list .\listings\startup_stm32f10x_md.lst --xref -o ..\output\startup_stm32f10x_md.o --depend ..\output\startup_stm32f10x_md.d)
+F (..\Libraries\src\misc.c)(0x65887AD2)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\System\delay -I ..\System\sys -I ..\System\usart -I ..\User -I ..\Libraries\inc -I ..\Driver-IC:\Users\david\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\output\misc.o --omf_browse ..\output\misc.crf --depend ..\output\misc.d)
+I (..\Libraries\inc\misc.h)(0x65887AD2)
+I (..\User\stm32f10x.h)(0x65887AD7)
+I (..\CMSIS\core_cm3.h)(0x65887AD2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5476A9D0)
+I (..\User\system_stm32f10x.h)(0x65887AD7)
+I (..\User\stm32f10x_conf.h)(0x65887AD7)
+I (..\Libraries\inc\stm32f10x_adc.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_dbgmcu.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_gpio.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_rcc.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_tim.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_usart.h)(0x65887AD2)
+F (..\Libraries\src\stm32f10x_adc.c)(0x65887AD3)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\System\delay -I ..\System\sys -I ..\System\usart -I ..\User -I ..\Libraries\inc -I ..\Driver-IC:\Users\david\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\output\stm32f10x_adc.o --omf_browse ..\output\stm32f10x_adc.crf --depend ..\output\stm32f10x_adc.d)
+I (..\Libraries\inc\stm32f10x_adc.h)(0x65887AD2)
+I (..\User\stm32f10x.h)(0x65887AD7)
+I (..\CMSIS\core_cm3.h)(0x65887AD2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5476A9D0)
+I (..\User\system_stm32f10x.h)(0x65887AD7)
+I (..\User\stm32f10x_conf.h)(0x65887AD7)
+I (..\Libraries\inc\stm32f10x_dbgmcu.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_gpio.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_rcc.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_tim.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_usart.h)(0x65887AD2)
+I (..\Libraries\inc\misc.h)(0x65887AD2)
+F (..\Libraries\src\stm32f10x_exti.c)(0x65887AD3)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\System\delay -I ..\System\sys -I ..\System\usart -I ..\User -I ..\Libraries\inc -I ..\Driver-IC:\Users\david\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\output\stm32f10x_exti.o --omf_browse ..\output\stm32f10x_exti.crf --depend ..\output\stm32f10x_exti.d)
+I (..\Libraries\inc\stm32f10x_exti.h)(0x65887AD2)
+I (..\User\stm32f10x.h)(0x65887AD7)
+I (..\CMSIS\core_cm3.h)(0x65887AD2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5476A9D0)
+I (..\User\system_stm32f10x.h)(0x65887AD7)
+I (..\User\stm32f10x_conf.h)(0x65887AD7)
+I (..\Libraries\inc\stm32f10x_adc.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_dbgmcu.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_gpio.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_rcc.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_tim.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_usart.h)(0x65887AD2)
+I (..\Libraries\inc\misc.h)(0x65887AD2)
+F (..\Libraries\src\stm32f10x_gpio.c)(0x65887AD3)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\System\delay -I ..\System\sys -I ..\System\usart -I ..\User -I ..\Libraries\inc -I ..\Driver-IC:\Users\david\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\output\stm32f10x_gpio.o --omf_browse ..\output\stm32f10x_gpio.crf --depend ..\output\stm32f10x_gpio.d)
+I (..\Libraries\inc\stm32f10x_gpio.h)(0x65887AD2)
+I (..\User\stm32f10x.h)(0x65887AD7)
+I (..\CMSIS\core_cm3.h)(0x65887AD2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5476A9D0)
+I (..\User\system_stm32f10x.h)(0x65887AD7)
+I (..\User\stm32f10x_conf.h)(0x65887AD7)
+I (..\Libraries\inc\stm32f10x_adc.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_dbgmcu.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_rcc.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_tim.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_usart.h)(0x65887AD2)
+I (..\Libraries\inc\misc.h)(0x65887AD2)
+F (..\Libraries\src\stm32f10x_rcc.c)(0x65887AD3)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\System\delay -I ..\System\sys -I ..\System\usart -I ..\User -I ..\Libraries\inc -I ..\Driver-IC:\Users\david\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\output\stm32f10x_rcc.o --omf_browse ..\output\stm32f10x_rcc.crf --depend ..\output\stm32f10x_rcc.d)
+I (..\Libraries\inc\stm32f10x_rcc.h)(0x65887AD2)
+I (..\User\stm32f10x.h)(0x65887AD7)
+I (..\CMSIS\core_cm3.h)(0x65887AD2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5476A9D0)
+I (..\User\system_stm32f10x.h)(0x65887AD7)
+I (..\User\stm32f10x_conf.h)(0x65887AD7)
+I (..\Libraries\inc\stm32f10x_adc.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_dbgmcu.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_gpio.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_tim.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_usart.h)(0x65887AD2)
+I (..\Libraries\inc\misc.h)(0x65887AD2)
+F (..\Libraries\src\stm32f10x_rtc.c)(0x65887AD3)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\System\delay -I ..\System\sys -I ..\System\usart -I ..\User -I ..\Libraries\inc -I ..\Driver-IC:\Users\david\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\output\stm32f10x_rtc.o --omf_browse ..\output\stm32f10x_rtc.crf --depend ..\output\stm32f10x_rtc.d)
+I (..\Libraries\inc\stm32f10x_rtc.h)(0x65887AD2)
+I (..\User\stm32f10x.h)(0x65887AD7)
+I (..\CMSIS\core_cm3.h)(0x65887AD2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5476A9D0)
+I (..\User\system_stm32f10x.h)(0x65887AD7)
+I (..\User\stm32f10x_conf.h)(0x65887AD7)
+I (..\Libraries\inc\stm32f10x_adc.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_dbgmcu.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_gpio.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_rcc.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_tim.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_usart.h)(0x65887AD2)
+I (..\Libraries\inc\misc.h)(0x65887AD2)
+F (..\Libraries\src\stm32f10x_tim.c)(0x65887AD3)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\System\delay -I ..\System\sys -I ..\System\usart -I ..\User -I ..\Libraries\inc -I ..\Driver-IC:\Users\david\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\output\stm32f10x_tim.o --omf_browse ..\output\stm32f10x_tim.crf --depend ..\output\stm32f10x_tim.d)
+I (..\Libraries\inc\stm32f10x_tim.h)(0x65887AD2)
+I (..\User\stm32f10x.h)(0x65887AD7)
+I (..\CMSIS\core_cm3.h)(0x65887AD2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5476A9D0)
+I (..\User\system_stm32f10x.h)(0x65887AD7)
+I (..\User\stm32f10x_conf.h)(0x65887AD7)
+I (..\Libraries\inc\stm32f10x_adc.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_dbgmcu.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_gpio.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_rcc.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_usart.h)(0x65887AD2)
+I (..\Libraries\inc\misc.h)(0x65887AD2)
+F (..\Libraries\src\stm32f10x_usart.c)(0x65887AD3)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\System\delay -I ..\System\sys -I ..\System\usart -I ..\User -I ..\Libraries\inc -I ..\Driver-IC:\Users\david\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\output\stm32f10x_usart.o --omf_browse ..\output\stm32f10x_usart.crf --depend ..\output\stm32f10x_usart.d)
+I (..\Libraries\inc\stm32f10x_usart.h)(0x65887AD2)
+I (..\User\stm32f10x.h)(0x65887AD7)
+I (..\CMSIS\core_cm3.h)(0x65887AD2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5476A9D0)
+I (..\User\system_stm32f10x.h)(0x65887AD7)
+I (..\User\stm32f10x_conf.h)(0x65887AD7)
+I (..\Libraries\inc\stm32f10x_adc.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_dbgmcu.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_gpio.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_rcc.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_tim.h)(0x65887AD2)
+I (..\Libraries\inc\misc.h)(0x65887AD2)
+F (..\Driver\lcd1602.c)(0x658A670C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\System\delay -I ..\System\sys -I ..\System\usart -I ..\User -I ..\Libraries\inc -I ..\Driver-IC:\Users\david\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\output\lcd1602.o --omf_browse ..\output\lcd1602.crf --depend ..\output\lcd1602.d)
+I (..\Driver\lcd1602.h)(0x65887AD2)
+I (..\System\delay\delay.h)(0x65887AD7)
+I (..\System\sys\sys.h)(0x65887AD7)
+I (..\User\stm32f10x.h)(0x65887AD7)
+I (..\CMSIS\core_cm3.h)(0x65887AD2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5476A9D0)
+I (..\User\system_stm32f10x.h)(0x65887AD7)
+I (..\User\stm32f10x_conf.h)(0x65887AD7)
+I (..\Libraries\inc\stm32f10x_adc.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_dbgmcu.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_gpio.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_rcc.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_tim.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_usart.h)(0x65887AD2)
+I (..\Libraries\inc\misc.h)(0x65887AD2)
+F (..\Driver\gpio.c)(0x658A670C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\System\delay -I ..\System\sys -I ..\System\usart -I ..\User -I ..\Libraries\inc -I ..\Driver-IC:\Users\david\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\output\gpio.o --omf_browse ..\output\gpio.crf --depend ..\output\gpio.d)
+I (..\Driver\gpio.h)(0x65887AD2)
+I (..\System\sys\sys.h)(0x65887AD7)
+I (..\User\stm32f10x.h)(0x65887AD7)
+I (..\CMSIS\core_cm3.h)(0x65887AD2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5476A9D0)
+I (..\User\system_stm32f10x.h)(0x65887AD7)
+I (..\User\stm32f10x_conf.h)(0x65887AD7)
+I (..\Libraries\inc\stm32f10x_adc.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_dbgmcu.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_gpio.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_rcc.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_tim.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_usart.h)(0x65887AD2)
+I (..\Libraries\inc\misc.h)(0x65887AD2)
+F (..\Driver\ds18b20.c)(0x658A670C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\System\delay -I ..\System\sys -I ..\System\usart -I ..\User -I ..\Libraries\inc -I ..\Driver-IC:\Users\david\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\output\ds18b20.o --omf_browse ..\output\ds18b20.crf --depend ..\output\ds18b20.d)
+I (..\Driver\ds18b20.h)(0x65887AD2)
+I (..\System\sys\sys.h)(0x65887AD7)
+I (..\User\stm32f10x.h)(0x65887AD7)
+I (..\CMSIS\core_cm3.h)(0x65887AD2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5476A9D0)
+I (..\User\system_stm32f10x.h)(0x65887AD7)
+I (..\User\stm32f10x_conf.h)(0x65887AD7)
+I (..\Libraries\inc\stm32f10x_adc.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_dbgmcu.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_gpio.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_rcc.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_tim.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_usart.h)(0x65887AD2)
+I (..\Libraries\inc\misc.h)(0x65887AD2)
+I (..\System\delay\delay.h)(0x65887AD7)
+F (.\main.c)(0x658A6ACF)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\System\delay -I ..\System\sys -I ..\System\usart -I ..\User -I ..\Libraries\inc -I ..\Driver-IC:\Users\david\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\output\main.o --omf_browse ..\output\main.crf --depend ..\output\main.d)
+I (..\System\sys\sys.h)(0x65887AD7)
+I (..\User\stm32f10x.h)(0x65887AD7)
+I (..\CMSIS\core_cm3.h)(0x65887AD2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5476A9D0)
+I (..\User\system_stm32f10x.h)(0x65887AD7)
+I (..\User\stm32f10x_conf.h)(0x65887AD7)
+I (..\Libraries\inc\stm32f10x_adc.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_dbgmcu.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_gpio.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_rcc.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_tim.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_usart.h)(0x65887AD2)
+I (..\Libraries\inc\misc.h)(0x65887AD2)
+I (..\System\delay\delay.h)(0x65887AD7)
+I (..\Driver\lcd1602.h)(0x65887AD2)
+I (..\Driver\gpio.h)(0x65887AD2)
+I (..\System\usart\usart1.h)(0x65887AD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5476A9D0)
+I (..\System\usart\usart3.h)(0x65887AD7)
+I (..\Driver\ds18b20.h)(0x65887AD2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5476A9D0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5476A9D0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5476A9D0)
+F (.\stm32f10x_it.c)(0x65887AD7)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\System\delay -I ..\System\sys -I ..\System\usart -I ..\User -I ..\Libraries\inc -I ..\Driver-IC:\Users\david\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\output\stm32f10x_it.o --omf_browse ..\output\stm32f10x_it.crf --depend ..\output\stm32f10x_it.d)
+I (stm32f10x_it.h)(0x65887AD7)
+I (stm32f10x.h)(0x65887AD7)
+I (..\CMSIS\core_cm3.h)(0x65887AD2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5476A9D0)
+I (system_stm32f10x.h)(0x65887AD7)
+I (stm32f10x_conf.h)(0x65887AD7)
+I (..\Libraries\inc\stm32f10x_adc.h)(0x65887AD2)
+I (..\User\stm32f10x.h)(0x65887AD7)
+I (..\Libraries\inc\stm32f10x_dbgmcu.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_gpio.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_rcc.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_tim.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_usart.h)(0x65887AD2)
+I (..\Libraries\inc\misc.h)(0x65887AD2)
+F (.\system_stm32f10x.c)(0x65887AD7)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\System\delay -I ..\System\sys -I ..\System\usart -I ..\User -I ..\Libraries\inc -I ..\Driver-IC:\Users\david\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\output\system_stm32f10x.o --omf_browse ..\output\system_stm32f10x.crf --depend ..\output\system_stm32f10x.d)
+I (stm32f10x.h)(0x65887AD7)
+I (..\CMSIS\core_cm3.h)(0x65887AD2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5476A9D0)
+I (system_stm32f10x.h)(0x65887AD7)
+I (stm32f10x_conf.h)(0x65887AD7)
+I (..\Libraries\inc\stm32f10x_adc.h)(0x65887AD2)
+I (..\User\stm32f10x.h)(0x65887AD7)
+I (..\Libraries\inc\stm32f10x_dbgmcu.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_gpio.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_rcc.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_tim.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_usart.h)(0x65887AD2)
+I (..\Libraries\inc\misc.h)(0x65887AD2)
+F (..\SYSTEM\delay\delay.c)(0x658A64A0)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\System\delay -I ..\System\sys -I ..\System\usart -I ..\User -I ..\Libraries\inc -I ..\Driver-IC:\Users\david\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\output\delay.o --omf_browse ..\output\delay.crf --depend ..\output\delay.d)
+I (..\SYSTEM\delay\delay.h)(0x65887AD7)
+I (..\System\sys\sys.h)(0x65887AD7)
+I (..\User\stm32f10x.h)(0x65887AD7)
+I (..\CMSIS\core_cm3.h)(0x65887AD2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5476A9D0)
+I (..\User\system_stm32f10x.h)(0x65887AD7)
+I (..\User\stm32f10x_conf.h)(0x65887AD7)
+I (..\Libraries\inc\stm32f10x_adc.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_dbgmcu.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_gpio.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_rcc.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_tim.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_usart.h)(0x65887AD2)
+I (..\Libraries\inc\misc.h)(0x65887AD2)
+F (..\SYSTEM\sys\sys.c)(0x658A67B4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\System\delay -I ..\System\sys -I ..\System\usart -I ..\User -I ..\Libraries\inc -I ..\Driver-IC:\Users\david\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\output\sys.o --omf_browse ..\output\sys.crf --depend ..\output\sys.d)
+I (..\SYSTEM\sys\sys.h)(0x65887AD7)
+I (..\User\stm32f10x.h)(0x65887AD7)
+I (..\CMSIS\core_cm3.h)(0x65887AD2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5476A9D0)
+I (..\User\system_stm32f10x.h)(0x65887AD7)
+I (..\User\stm32f10x_conf.h)(0x65887AD7)
+I (..\Libraries\inc\stm32f10x_adc.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_dbgmcu.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_gpio.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_rcc.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_tim.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_usart.h)(0x65887AD2)
+I (..\Libraries\inc\misc.h)(0x65887AD2)
+F (..\System\usart\usart1.c)(0x658A6974)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\System\delay -I ..\System\sys -I ..\System\usart -I ..\User -I ..\Libraries\inc -I ..\Driver-IC:\Users\david\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\output\usart1.o --omf_browse ..\output\usart1.crf --depend ..\output\usart1.d)
+I (..\User\stm32f10x.h)(0x65887AD7)
+I (..\CMSIS\core_cm3.h)(0x65887AD2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5476A9D0)
+I (..\User\system_stm32f10x.h)(0x65887AD7)
+I (..\User\stm32f10x_conf.h)(0x65887AD7)
+I (..\Libraries\inc\stm32f10x_adc.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_dbgmcu.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_gpio.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_rcc.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_tim.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_usart.h)(0x65887AD2)
+I (..\Libraries\inc\misc.h)(0x65887AD2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5476A9D0)
+I (..\System\usart\usart1.h)(0x65887AD7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5476A9D0)
+F (..\System\usart\usart3.c)(0x65887AD7)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\System\delay -I ..\System\sys -I ..\System\usart -I ..\User -I ..\Libraries\inc -I ..\Driver-IC:\Users\david\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\output\usart3.o --omf_browse ..\output\usart3.crf --depend ..\output\usart3.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5476A9D0)
+I (..\System\usart\usart3.h)(0x65887AD7)
+I (..\User\stm32f10x.h)(0x65887AD7)
+I (..\CMSIS\core_cm3.h)(0x65887AD2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5476A9D0)
+I (..\User\system_stm32f10x.h)(0x65887AD7)
+I (..\User\stm32f10x_conf.h)(0x65887AD7)
+I (..\Libraries\inc\stm32f10x_adc.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_dbgmcu.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_gpio.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_rcc.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_tim.h)(0x65887AD2)
+I (..\Libraries\inc\stm32f10x_usart.h)(0x65887AD2)
+I (..\Libraries\inc\misc.h)(0x65887AD2)
